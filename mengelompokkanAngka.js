@@ -13,6 +13,7 @@ function mengelompokkanAngka(arr) {
       resArr[1].push(arr[i]);
     }
    }
+  return resArr;
 }
 
 // TEST CASES
