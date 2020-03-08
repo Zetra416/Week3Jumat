@@ -12,10 +12,7 @@ function mengelompokkanAngka(arr) {
     else if (arr[i]%2 !== 0) {
       resArr[1].push(arr[i]);
     }
-
    }
-  // resArr.push(temp);
-  console.log(resArr);
 }
 
 // TEST CASES
