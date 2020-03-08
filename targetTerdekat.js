@@ -19,7 +19,7 @@ function targetTerdekat(arr) {
       resArr.push(arrTemp[j] - countO);
     }
     else if (arrTemp[j] < countO) {
-      resArr.push(countO - arrTemp[j]);
+      resArr.push(countO - arrTemp[j+2]);
     }
   }
 
